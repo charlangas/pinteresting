@@ -1,15 +1,59 @@
-$body-bg:                         #fff9f7;
-$text-color:                    #4e4e4e;
-$brand-primary:           #F18561;
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:900,900italic);
 
-$jumbotron-bg:        #fff;
+$body-bg:                                                    #fff;
+$text-color:                                                  #4e4e4e;
+$brand-primary:                                           #F18561;
+$border-radius-base:                                   2px;
+$border-radius-large:                                  2px;
 
-$navbar-default-bg:       #fff;
-$navbar-default-border: #FBE6E0;
-$navbar-default-color:   #f7c1b2;
-$navbar-default-link-color: #f7c1b2;
-$navbar-default-link-hover-color: #f7c1b2;
+$headings-color:                                          #F6B4A2;
+$headings-font-family:                                'Playfair Display', serif;
+$headings-font-weight:                               900;
 
-$btn-primary-bg: #F18561;
+$jumbotron-bg:                                           #fff;
+
+$navbar-default-bg:                                    #fff;
+$navbar-default-border:                              #f7c1b2;
+$navbar-default-color:                                #F18561;
+$navbar-default-link-color:                         #F18561;
+$navbar-default-link-hover-color:              #f7c1b2;
+
+$btn-primary-bg:                                        #F18561;
+$btn-default-bg:                                         #fff9f7;
+$btn-default-color:                                      #F18561;
+$btn-default-border:                                   #F18561;
+$btn-info-border:                                        #fff;
 
 @import 'bootstrap';
+
+h1 {
+  letter-spacing: -.02em;
+}
+
+// .btn {
+//   text-transform: uppercase;
+// }
+
+.center {
+  text-align: center;
+}
+
+.headerBlock {
+  background-color: #fff9f7;
+  padding: 150px;
+  margin-top: -50px;
+}
+
+.headerBlock h1 {
+  font-size: 6em;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.secondaryBlock {
+  padding: 100px;
+}
+
+/* background #fff9f7, border #FBE6E0 */
