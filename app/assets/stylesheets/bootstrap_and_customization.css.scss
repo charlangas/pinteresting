@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:900,900italic|Josefin+Sans:300);
 
 $body-bg:                                                    #fff;
 $text-color:                                                  #4e4e4e;
@@ -6,7 +6,7 @@ $brand-primary:                                           #F18561;
 $border-radius-base:                                   2px;
 $border-radius-large:                                  2px;
 
-$headings-color:                                          #F6B4A2;
+$headings-color:                                          #F18561;
 $headings-font-family:                                'Playfair Display', serif;
 $headings-font-weight:                               900;
 
@@ -17,12 +17,15 @@ $navbar-default-border:                              #f7c1b2;
 $navbar-default-color:                                #F18561;
 $navbar-default-link-color:                         #F18561;
 $navbar-default-link-hover-color:              #f7c1b2;
+$navbar-default-toggle-hover-bg:              #fff9f7;
+$navbar-default-toggle-icon-bar-bg:          #F6B4A2;
+$navbar-default-toggle-border-color:         #F6B4A2;
 
 $btn-primary-bg:                                        #F18561;
 $btn-default-bg:                                         #fff9f7;
-$btn-default-color:                                      #F18561;
-$btn-default-border:                                   #F18561;
-$btn-info-border:                                        #fff;
+$btn-default-color:                                     #F18561;
+$btn-default-border:                                  #F18561;
+$btn-info-border:                                       #fff;
 
 @import 'bootstrap';
 
@@ -30,22 +33,35 @@ h1 {
   letter-spacing: -.02em;
 }
 
-// .btn {
-//   text-transform: uppercase;
-// }
-
 .center {
   text-align: center;
 }
 
 .headerBlock {
-  background-color: #fff9f7;
+  background-color: #FBE6E0;
   padding: 150px;
   margin-top: -50px;
 }
 
 .headerBlock h1 {
   font-size: 6em;
+  padding-bottom: 20px;
+}
+
+.headerBlock h3 {
+  color: #F6B4A2;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  margin-bottom: -40px;
+}
+
+.headerBlock p {
+  color: #F6B4A2;
+}
+
+.headerBlock .btn {
+   width: 70%;
 }
 
 .navbar-brand {
