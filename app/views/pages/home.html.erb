@@ -1,12 +1,17 @@
 <div class="headerBlock">
- <div class="container center">
-  <h3>esto es</h3>
-  <h1>Puercomatic</h1>
-   <%= link_to "Log In",  "#", class: "btn btn-default btn-lg" %>
-   <%= link_to "Sign Up",  "#", class: "btn btn-primary btn-lg" %>
-   <p>Forgot your <a href="#">password</a>?</p>
- </div>
-</div>
+  <div class="container center">
+    <h3>esto es</h3>
+    <h1>Puercomatic</h1>
 
-<div class="secondaryBlock"></div>
+    <% if user_signed_in? %>
+
+      <p>Busca tus placas</p>
+
+    <% else %>
+
+      <%= link_to "Sign Up",  new_user_registration_path, class: "btn btn-primary btn-lg" %>
+
+      <p>Forgot your <a href="#">password</a>?</p>
+   <% end %>
+  </div>
 </div>
