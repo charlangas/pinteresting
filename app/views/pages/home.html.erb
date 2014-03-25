@@ -2,16 +2,17 @@
   <div class="container center">
     <h3>esto es</h3>
     <h1>Puercomatic</h1>
+    <p>mensajería para carros</p>
 
     <% if user_signed_in? %>
 
-      <p>Busca tus placas</p>
+      <p>#</p>
 
     <% else %>
 
       <%= link_to "Sign Up",  new_user_registration_path, class: "btn btn-primary btn-lg" %>
 
-      <p>Forgot your <a href="#">password</a>?</p>
+
    <% end %>
   </div>
 </div>

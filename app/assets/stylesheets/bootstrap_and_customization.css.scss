@@ -33,6 +33,13 @@ h1 {
   letter-spacing: -.02em;
 }
 
+h2, h3, h4 {
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 .center {
   text-align: center;
 }
@@ -50,18 +57,16 @@ h1 {
 
 .headerBlock h3 {
   color: #F6B4A2;
-  font-size: 3em;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  margin-bottom: -40px;
+  font-size: 2em;
+  margin-bottom: -45px;
+  text-transform: lowercase;
 }
 
 .headerBlock p {
   color: #F6B4A2;
-}
-
-.headerBlock .btn {
-   width: 70%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3em;
+  margin-top: -40px;
 }
 
 .navbar-brand {
