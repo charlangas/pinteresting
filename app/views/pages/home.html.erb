@@ -1,18 +1,18 @@
 <div class="headerBlock">
-  <div class="container center">
-    <h3>esto es</h3>
-    <h1>Puercomatic</h1>
-    <p>envía mensajes a cualquier carro</p>
+  <div class="container">
+      <h3>esto es</h3>
+      <h1>Puercomatic</h1>
+      <p>envía mensajes a cualquier carro</p>
 
-    <% if user_signed_in? %>
+      <% if user_signed_in? %>
 
-      <p>#</p>
+        <p>#</p>
 
-    <% else %>
+      <% else %>
 
-      <%= link_to "Regístrate aquí",  new_user_registration_path, class: "btn btn-primary btn-lg" %>
+        <%= link_to "Regístrate aquí",  new_user_registration_path, class: "btn btn-primary btn-lg col-md-2" %>
 
 
-   <% end %>
+     <% end %>
   </div>
 </div>
